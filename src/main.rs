@@ -4,7 +4,7 @@ use std::{env, fs::read};
 fn main() {
     let args: Vec<String> = env::args().collect();
     if args.len() < 2{
-        print!("Usage: hexview <file path> <output ascii file paht>(opinion)");
+        print!("Usage: hexview <file path> <output ascii file path>(opinion)");
         return;
     }
     let filename = &args[1];
